@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NovaTech Pro - Revolutionary Productivity Suite</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar">
+      <div class="nav-container">
+        <div class="nav-logo">
+          <span class="logo-text">NovaTech</span>
+        </div>
+        <ul class="nav-menu">
+          <li><a href="#features">Features</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="#testimonials">Reviews</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="nav-cta">
+          <button class="btn-secondary">Sign In</button>
+          <button class="btn-primary">Get Started</button>
+        </div>
+        <div class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="hero-container">
+        <div class="hero-content">
+          <h1 class="hero-title">
+            Revolutionize Your
+            <span class="gradient-text">Productivity</span>
+          </h1>
+          <p class="hero-description">
+            Experience the future of work with NovaTech Pro. Our AI-powered
+            suite combines project management, team collaboration, and analytics
+            in one seamless platform.
+          </p>
+          <div class="hero-cta">
+            <button class="btn-primary btn-large">Start Free Trial</button>
+            <button class="btn-outline">Watch Demo</button>
+          </div>
+          <div class="hero-stats">
+            <div class="stat">
+              <span class="stat-number">50K+</span>
+              <span class="stat-label">Active Users</span>
+            </div>
+            <div class="stat">
+              <span class="stat-number">99.9%</span>
+              <span class="stat-label">Uptime</span>
+            </div>
+            <div class="stat">
+              <span class="stat-number">4.9/5</span>
+              <span class="stat-label">Rating</span>
+            </div>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="floating-card card-1">
+            <div class="card-header">
+              <div class="card-dots">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+            </div>
+            <div class="card-content">
+              <h3>Project Dashboard</h3>
+              <div class="progress-bar">
+                <div class="progress-fill"></div>
+              </div>
+              <p>85% Complete</p>
+            </div>
+          </div>
+          <div class="floating-card card-2">
+            <div class="card-icon">📊</div>
+            <h4>Analytics</h4>
+            <p>Real-time insights</p>
+          </div>
+          <div class="floating-card card-3">
+            <div class="card-icon">🚀</div>
+            <h4>Performance</h4>
+            <p>+127% efficiency</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+      <div class="container">
+        <div class="section-header">
+          <h2>Powerful Features</h2>
+          <p>Everything you need to supercharge your team's productivity</p>
+        </div>
+        <div class="features-grid">
+          <div class="feature-card">
+            <div class="feature-icon">🎯</div>
+            <h3>Smart Task Management</h3>
+            <p>
+              AI-powered task prioritization and automated scheduling to keep
+              your team focused on what matters most.
+            </p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">👥</div>
+            <h3>Real-time Collaboration</h3>
+            <p>
+              Seamless team communication with instant messaging, video calls,
+              and collaborative workspaces.
+            </p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">📈</div>
+            <h3>Advanced Analytics</h3>
+            <p>
+              Comprehensive insights and reporting to track progress, identify
+              bottlenecks, and optimize workflows.
+            </p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">🔒</div>
+            <h3>Enterprise Security</h3>
+            <p>
+              Bank-level encryption, SSO integration, and compliance with
+              industry standards to keep your data safe.
+            </p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">🔄</div>
+            <h3>Seamless Integrations</h3>
+            <p>
+              Connect with 100+ popular tools including Slack, GitHub, Google
+              Workspace, and Microsoft 365.
+            </p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">📱</div>
+            <h3>Mobile First</h3>
+            <p>
+              Native mobile apps for iOS and Android with offline sync to keep
+              you productive anywhere.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing">
+      <div class="container">
+        <div class="section-header">
+          <h2>Simple, Transparent Pricing</h2>
+          <p>Choose the perfect plan for your team</p>
+        </div>
+        <div class="pricing-toggle">
+          <span class="toggle-label">Monthly</span>
+          <div class="toggle-switch">
+            <input type="checkbox" id="pricing-toggle" />
+            <label for="pricing-toggle"></label>
+          </div>
+          <span class="toggle-label"
+            >Annual <span class="discount">Save 20%</span></span
+          >
+        </div>
+        <div class="pricing-grid">
+          <div class="pricing-card">
+            <h3>Starter</h3>
+            <div class="price">
+              <span class="currency">$</span>
+              <span class="amount monthly">19</span>
+              <span class="amount annual">15</span>
+              <span class="period">/month</span>
+            </div>
+            <ul class="features-list">
+              <li>Up to 5 team members</li>
+              <li>10GB storage</li>
+              <li>Basic integrations</li>
+              <li>Email support</li>
+            </ul>
+            <button class="btn-outline">Get Started</button>
+          </div>
+          <div class="pricing-card featured">
+            <div class="popular-badge">Most Popular</div>
+            <h3>Professional</h3>
+            <div class="price">
+              <span class="currency">$</span>
+              <span class="amount monthly">49</span>
+              <span class="amount annual">39</span>
+              <span class="period">/month</span>
+            </div>
+            <ul class="features-list">
+              <li>Up to 25 team members</li>
+              <li>100GB storage</li>
+              <li>Advanced integrations</li>
+              <li>Priority support</li>
+              <li>Advanced analytics</li>
+            </ul>
+            <button class="btn-primary">Get Started</button>
+          </div>
+          <div class="pricing-card">
+            <h3>Enterprise</h3>
+            <div class="price">
+              <span class="currency">$</span>
+              <span class="amount monthly">99</span>
+              <span class="amount annual">79</span>
+              <span class="period">/month</span>
+            </div>
+            <ul class="features-list">
+              <li>Unlimited team members</li>
+              <li>Unlimited storage</li>
+              <li>Custom integrations</li>
+              <li>24/7 phone support</li>
+              <li>Custom analytics</li>
+              <li>SSO & advanced security</li>
+            </ul>
+            <button class="btn-outline">Contact Sales</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+      <div class="container">
+        <div class="section-header">
+          <h2>Loved by Teams Worldwide</h2>
+          <p>See what our customers have to say</p>
+        </div>
+        <div class="testimonials-grid">
+          <div class="testimonial-card">
+            <div class="stars">⭐⭐⭐⭐⭐</div>
+            <p>
+              "NovaTech Pro transformed how our team collaborates. We've seen a
+              40% increase in productivity since switching."
+            </p>
+            <div class="testimonial-author">
+              <div class="author-avatar">SM</div>
+              <div class="author-info">
+                <h4>Sarah Mitchell</h4>
+                <span>Product Manager, TechCorp</span>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-card">
+            <div class="stars">⭐⭐⭐⭐⭐</div>
+            <p>
+              "The analytics dashboard gives us insights we never had before.
+              It's like having a crystal ball for our projects."
+            </p>
+            <div class="testimonial-author">
+              <div class="author-avatar">JD</div>
+              <div class="author-info">
+                <h4>James Davis</h4>
+                <span>CTO, StartupXYZ</span>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-card">
+            <div class="stars">⭐⭐⭐⭐⭐</div>
+            <p>
+              "Seamless integration with our existing tools made the transition
+              effortless. Our team adopted it immediately."
+            </p>
+            <div class="testimonial-author">
+              <div class="author-avatar">AL</div>
+              <div class="author-info">
+                <h4>Anna Lopez</h4>
+                <span>Operations Director, GrowthCo</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+      <div class="container">
+        <div class="cta-content">
+          <h2>Ready to Transform Your Workflow?</h2>
+          <p>
+            Join thousands of teams already using NovaTech Pro to achieve more
+          </p>
+          <div class="cta-buttons">
+            <button class="btn-primary btn-large">Start Free Trial</button>
+            <button class="btn-outline">Schedule Demo</button>
+          </div>
+          <p class="cta-note">
+            No credit card required • 14-day free trial • Cancel anytime
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact" class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-section">
+            <h3>NovaTech</h3>
+            <p>Revolutionizing productivity for teams worldwide.</p>
+            <div class="social-links">
+              <a href="#">Twitter</a>
+              <a href="#">LinkedIn</a>
+              <a href="#">GitHub</a>
+            </div>
+          </div>
+          <div class="footer-section">
+            <h4>Product</h4>
+            <ul>
+              <li><a href="#">Features</a></li>
+              <li><a href="#">Pricing</a></li>
+              <li><a href="#">Integrations</a></li>
+              <li><a href="#">API</a></li>
+            </ul>
+          </div>
+          <div class="footer-section">
+            <h4>Company</h4>
+            <ul>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">Press</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer-section">
+            <h4>Support</h4>
+            <ul>
+              <li><a href="#">Help Center</a></li>
+              <li><a href="#">Documentation</a></li>
+              <li><a href="#">Status</a></li>
+              <li><a href="#">Security</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2024 NovaTech. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
